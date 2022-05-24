@@ -1,0 +1,60 @@
+body{
+    background-color: darksalmon;
+    color: black;
+}
+
+h1{
+    color: black;
+    font-size: 40px;
+}
+
+#sketch_name{
+    color: azure;
+    font-size: 20px;
+}
+
+#show_sketch{
+    float:right;
+}
+
+p,span{
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#score{
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+#time{
+    margin-right: 20px;
+    font-size: 25px;
+    float:right
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0%{
+        box-shadow:1px 1px 38px rgb(239, 236, 198);
+    }
+    25%{
+        box-shadow:1px 1px 38px rgb(221, 223, 120);
+    }
+    50%{
+        box-shadow:1px 1px 38px rgb(219, 227, 83);
+    }
+    75%{
+        box-shadow:1px 1px 38px rgb(218, 205, 28);
+    }
+    100%{
+        box-shadow:1px 1px 38px rgb(238, 247, 0);
+    }
+
+}
